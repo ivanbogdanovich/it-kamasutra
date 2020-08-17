@@ -1,0 +1,12 @@
+.Root {
+    padding: 20px;
+    border: 5px dashed green;
+}
+
+.list {
+    padding-left: 0;
+}
+
+.title {
+    font-size: 30px;
+}

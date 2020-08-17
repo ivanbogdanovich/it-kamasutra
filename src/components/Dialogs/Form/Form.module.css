@@ -1,0 +1,13 @@
+.Root {
+    display: flex;
+    flex-direction: column;
+}
+
+.button {
+    font-size: 17px;
+    width: 200px;
+    height: 50px;
+    background-color: #262626;
+    color: #fff;
+    cursor: pointer;
+}

@@ -1,0 +1,33 @@
+.Root {
+    margin-bottom: 20px;
+    list-style-type: none;
+}
+
+.img {
+    width: 100px;
+}
+
+.button {
+    margin-top: 10px;
+    width: 150px;
+    height: 40px;
+    background-color:rgba(250, 128, 114);
+    color: #fff;
+    font-size: 17px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color:rgba(250, 128, 114, 0.8);
+}
+
+.button[disabled] {
+    background-color: grey;
+    cursor: not-allowed;
+}
+
+.button[disabled]:hover {
+    background-color: grey;
+    cursor: not-allowed;
+}
