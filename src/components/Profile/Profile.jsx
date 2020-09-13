@@ -47,7 +47,7 @@ function Profile({ match }) {
 
     return (
         <div>
-            <Info profile={profile} status={status} />
+            <Info isOwner={!match.params.userId} profile={profile} status={status} />
 
             <MyPosts />
         </div>

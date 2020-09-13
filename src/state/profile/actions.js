@@ -25,6 +25,13 @@ export function setStatus (status) {
     }
 }
 
+export function setPhoto (photos) {
+    return {
+        type: types.SET_PHOTO,
+        photos
+    }
+}
+
 export function getProfileThunk (userId) {
     return async dispatch => {
         try {
@@ -41,7 +48,7 @@ export function getUserStatusThunk(userId) {
     return async dispatch => {
         try {
             const response = await profileAPI.getUserStatus(userId);
-            dispatch(setStatus(response.data));
+            dispatch(setStatus(response));
         }
         catch(e) {
             throw new Error(e);
@@ -55,6 +62,20 @@ export function updateStatusThunk(status) {
             const response = await profileAPI.updateStatus(status);
             if (response.resultCode === 0) {
                 dispatch(setStatus(status));
+            }
+        }
+        catch(e) {
+            throw new Error(e);
+        }
+    }
+}
+
+export function sendPhotoThunk(photo) {
+    return async dispatch => {
+        try {
+            const response = await profileAPI.sendPhoto(photo);
+            if (response.resultCode === 0) {
+                dispatch(setPhoto(response.data.photos));
             }
         }
         catch(e) {

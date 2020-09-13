@@ -1,9 +1,9 @@
-.post {
+.Root {
     display: flex;
     list-style-type: none;
 }
 
-.post img {
+.Root img {
     width: 50px;
     margin-right: 20px;
 }

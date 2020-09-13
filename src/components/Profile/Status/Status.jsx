@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useDispatch } from 'react-redux';
+import PropTypes from 'prop-types';
 
 // actions
 import { updateStatusThunk } from '../../../state/profile/actions';
@@ -14,15 +15,15 @@ function Status({ status }) {
         setStatus(status)
     }, [status])
 
-    const onChange = (e) => {
+    function onChange(e) {
         setStatus(e.target.value)
     }
 
-    const activateEditMode = () => {
+    function activateEditMode() {
         setEditMode(true);
     }
 
-    const deActivateEditMode = () => {
+    function deActivateEditMode() {
         setEditMode(false);
         dispatch(updateStatusThunk(statusLocal));
     }
@@ -40,6 +41,14 @@ function Status({ status }) {
                 onChange={onChange} />
         }
     </div>
+}
+
+Status.propTypes = {
+    status: PropTypes.string,
+}
+
+Status.defaultProps = {
+    status: '',
 }
 
 export default Status;

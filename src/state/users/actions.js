@@ -57,7 +57,6 @@ export function setWaitIsSubscribe(isFetching, userId) {
 export function getUsersThunk(currentPage, pageSize) {
     return async dispatch => {
         try {
-            dispatch(setToggleIsFetching(true));
             const response = await usersAPI.getUsers(currentPage, pageSize);
 
             dispatch(setToggleIsFetching(false));

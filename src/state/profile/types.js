@@ -4,4 +4,5 @@ export default defineActionTypes('profile', [
     'ADD_MESSAGE_PROFILE',
     'SET_PROFILE_USER',
     'SET_STATUS',
+    'SET_PHOTO',
 ])

@@ -1,9 +1,8 @@
-.user {
+.Root {
     display: flex;
     padding: 30px;
-    border: 5px dashed tomato;
 }
-  
+
 .img {
     width: 100px;
 }
@@ -11,4 +10,20 @@
 .bg {
     width: 700px;
     height: 200px;
+}
+
+.List {
+    padding-left: 0;
+    list-style-type: none;
+}
+
+.List__item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.List__title {
+    margin-right: 10px;
+    color: #fff;
 }

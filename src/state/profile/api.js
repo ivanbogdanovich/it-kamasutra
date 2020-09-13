@@ -17,7 +17,7 @@ export const profileAPI = {
         try {
             const response = await instanceAxios.get(`profile/status/${userId}`);
 
-            return response;
+            return response.data;
         }
         catch(e) {
             throw new Error(e);
@@ -28,7 +28,23 @@ export const profileAPI = {
         try {
             const response = await instanceAxios.put(`profile/status/`, { status: status });
 
-            return response;
+            return response.data;
+        }
+        catch(e) {
+            throw new Error(e);
+        }
+    },
+
+    async sendPhoto(photo) {
+        try {
+            const formData = new FormData();
+            formData.append('image', photo);
+            const response = await instanceAxios.put(`profile/photo/`, formData, {
+                headers: {
+                'Content-Type': 'multipart/form-data'
+            }});
+
+            return response.data
         }
         catch(e) {
             throw new Error(e);

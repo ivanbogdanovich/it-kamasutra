@@ -27,6 +27,6 @@ export const usersAPI = {
     async getProfile(userId) {
         console.log('%cObsolete method! Please use profileAPI', STYLE_CONSOLE);
         const response = await profileAPI.getProfile(userId);
-        return response;
+        return response.data;
     }
 }

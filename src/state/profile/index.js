@@ -36,6 +36,13 @@ export default function reducer(state = initialState, action) {
             }
         }
 
+        case types.SET_PHOTO: {
+            return {
+                ...state,
+                profile: {...state.profile, photos: action.photos}
+            }
+        }
+
         default:
             return state
     }
