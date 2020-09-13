@@ -1,31 +1,31 @@
 {
   "files": {
-    "main.css": "/it-kamasutra/static/css/main.f6195247.chunk.css",
-    "main.js": "/it-kamasutra/static/js/main.350a034a.chunk.js",
-    "main.js.map": "/it-kamasutra/static/js/main.350a034a.chunk.js.map",
-    "runtime-main.js": "/it-kamasutra/static/js/runtime-main.7cae35ab.js",
-    "runtime-main.js.map": "/it-kamasutra/static/js/runtime-main.7cae35ab.js.map",
-    "static/js/2.2f7e605e.chunk.js": "/it-kamasutra/static/js/2.2f7e605e.chunk.js",
-    "static/js/2.2f7e605e.chunk.js.map": "/it-kamasutra/static/js/2.2f7e605e.chunk.js.map",
+    "main.css": "/it-kamasutra/static/css/main.766bea24.chunk.css",
+    "main.js": "/it-kamasutra/static/js/main.ca2e845f.chunk.js",
+    "main.js.map": "/it-kamasutra/static/js/main.ca2e845f.chunk.js.map",
+    "runtime-main.js": "/it-kamasutra/static/js/runtime-main.a1282e14.js",
+    "runtime-main.js.map": "/it-kamasutra/static/js/runtime-main.a1282e14.js.map",
+    "static/js/2.f5ca59a7.chunk.js": "/it-kamasutra/static/js/2.f5ca59a7.chunk.js",
+    "static/js/2.f5ca59a7.chunk.js.map": "/it-kamasutra/static/js/2.f5ca59a7.chunk.js.map",
     "static/css/3.87c5baae.chunk.css": "/it-kamasutra/static/css/3.87c5baae.chunk.css",
-    "static/js/3.7e348f43.chunk.js": "/it-kamasutra/static/js/3.7e348f43.chunk.js",
-    "static/js/3.7e348f43.chunk.js.map": "/it-kamasutra/static/js/3.7e348f43.chunk.js.map",
+    "static/js/3.1a3fa3f5.chunk.js": "/it-kamasutra/static/js/3.1a3fa3f5.chunk.js",
+    "static/js/3.1a3fa3f5.chunk.js.map": "/it-kamasutra/static/js/3.1a3fa3f5.chunk.js.map",
     "static/css/4.a67565f6.chunk.css": "/it-kamasutra/static/css/4.a67565f6.chunk.css",
-    "static/js/4.84d64a62.chunk.js": "/it-kamasutra/static/js/4.84d64a62.chunk.js",
-    "static/js/4.84d64a62.chunk.js.map": "/it-kamasutra/static/js/4.84d64a62.chunk.js.map",
+    "static/js/4.55d52ae1.chunk.js": "/it-kamasutra/static/js/4.55d52ae1.chunk.js",
+    "static/js/4.55d52ae1.chunk.js.map": "/it-kamasutra/static/js/4.55d52ae1.chunk.js.map",
     "index.html": "/it-kamasutra/index.html",
-    "precache-manifest.17953d96d684cb0bb7f905581df4c2eb.js": "/it-kamasutra/precache-manifest.17953d96d684cb0bb7f905581df4c2eb.js",
+    "precache-manifest.0630391b664e7ffdc43e5434c3c744a2.js": "/it-kamasutra/precache-manifest.0630391b664e7ffdc43e5434c3c744a2.js",
     "service-worker.js": "/it-kamasutra/service-worker.js",
     "static/css/3.87c5baae.chunk.css.map": "/it-kamasutra/static/css/3.87c5baae.chunk.css.map",
     "static/css/4.a67565f6.chunk.css.map": "/it-kamasutra/static/css/4.a67565f6.chunk.css.map",
-    "static/css/main.f6195247.chunk.css.map": "/it-kamasutra/static/css/main.f6195247.chunk.css.map",
+    "static/css/main.766bea24.chunk.css.map": "/it-kamasutra/static/css/main.766bea24.chunk.css.map",
     "static/media/preloader.svg": "/it-kamasutra/static/media/preloader.dba557f3.svg",
     "static/media/yarn-logo.png": "/it-kamasutra/static/media/yarn-logo.69f65a80.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.7cae35ab.js",
-    "static/js/2.2f7e605e.chunk.js",
-    "static/css/main.f6195247.chunk.css",
-    "static/js/main.350a034a.chunk.js"
+    "static/js/runtime-main.a1282e14.js",
+    "static/js/2.f5ca59a7.chunk.js",
+    "static/css/main.766bea24.chunk.css",
+    "static/js/main.ca2e845f.chunk.js"
   ]
 }
