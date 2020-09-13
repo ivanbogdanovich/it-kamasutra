@@ -4,9 +4,9 @@ import types from './types';
 // initial state
 let initialState = {
     messagesData: [
-        { message: 'YO YO YO' },
-        { message: 'URA URA URA' },
-        { message: 'Mother Fuck' }
+        { message: 'Yo Yo Yo' },
+        { message: 'Yo Yo Yo' },
+        { message: 'Yo Yo Yo' },
     ]
 }
 

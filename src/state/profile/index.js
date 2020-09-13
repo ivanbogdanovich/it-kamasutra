@@ -5,8 +5,8 @@ import types from './types';
 // initial state
 let initialState = {
     postData: [
-        { desc: 'Yo Yo mushiki', likesCounter: 23 },
-        { desc: 'It\'s second first', likesCounter: 5 }
+        { desc: 'Yo Yo', likesCounter: 23 },
+        { desc: 'bla bla bla', likesCounter: 5 }
     ],
     profile: null,
     status: ''

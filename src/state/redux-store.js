@@ -3,11 +3,11 @@ import ReduxThunk from 'redux-thunk';
 import { reducer as formReducer } from 'redux-form';
 
 // reducers
-import dialogs from '../state/dialogs/';
-import profile from '../state/profile/';
-import users from '../state/users/';
-import auth from '../state/auth/';
-import app from '../state/app/';
+import dialogs from './dialogs';
+import profile from './profile';
+import users from './users';
+import auth from './auth';
+import app from './app';
 
 const reducers = combineReducers({
     dialogs: dialogs,
